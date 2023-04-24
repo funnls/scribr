@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import Container from '$lib/Container.svelte';
+  import Nav from '$lib/Nav.svelte';
+  import Section from '$lib/Section.svelte';
+  import Selector from '$lib/Selector.svelte';
+</script>
+
+<main>
+  <Container>
+    <Nav title="Scribr" />
+    <Section>
+      <Selector />
+    </Section>
+  </Container>
+</main>

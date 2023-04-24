@@ -1,0 +1,13 @@
+@import './theme.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gunmetal);
+  color: var(--saffron);
+  font-family: 'Open Sans';
+}
